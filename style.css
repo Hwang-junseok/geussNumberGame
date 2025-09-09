@@ -1,14 +1,12 @@
-.background {
-    height: 800px;
+body{
+    background-size: cover;
     background-image: url(https://search.pstatic.net/sunny/?src=https%3A%2F%2Fplay-lh.googleusercontent.com%2FA6lK1U3d7JPegfaPmYxiv2W0y-uAocXCGT64mS4AvRhjgIFr5S_FaAWKbtIar6j4cQQ&type=sc960_832);
     background-size: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.box{
-    height: 500px;
-    width: 600px;
+.container{
     border: 3px solid white;
     border-radius: 10px;
     background-color: rgba(255,255,255,0.5);

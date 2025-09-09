@@ -1,0 +1,43 @@
+.background {
+    height: 800px;
+    background-image: url(https://search.pstatic.net/sunny/?src=https%3A%2F%2Fplay-lh.googleusercontent.com%2FA6lK1U3d7JPegfaPmYxiv2W0y-uAocXCGT64mS4AvRhjgIFr5S_FaAWKbtIar6j4cQQ&type=sc960_832);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 500px;
+    width: 600px;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.5);
+    text-align: center;
+}
+.go-button-style{
+    padding: 14px;
+    background-color: aqua;
+    border-radius: 20px;
+    font-size: inherit;
+    color: white;
+    border: none;
+}
+.go-button-style:hover {
+    transform: scale(1.07);
+    background-color: aqua;
+}
+.reset-button-style{
+    padding: 14px;
+    background-color: blue;
+    border-radius: 30px;
+    font-size: inherit;
+    color: white;
+    border: none;
+}
+.reset-button-style:hover{
+    transform: scale(1.07);
+    background-color: blue;
+}
+.user-number{
+    padding: 10px 8px;
+}
